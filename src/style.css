@@ -111,3 +111,31 @@ p {
 .ampage-imgs {
   box-shadow: var(--box-shadow);
 }
+.homepage-app-heading {
+  text-align: start;
+}
+.contact-footer {
+  margin-bottom: 15px;
+}
+@media (max-width: 576px) {
+  h1,
+  .homepage-app-heading {
+    text-align: center;
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  p,
+  .bg-home-paragraphs {
+    text-align: center;
+    font-size: 15px;
+  }
+  .launch-links {
+    display: block;
+    margin: 0 auto;
+  }
+}
